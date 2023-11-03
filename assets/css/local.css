@@ -1,0 +1,340 @@
+@media screen and (max-width: 768px) {
+    main > header:nth-of-type(1){
+        display: none;
+    }
+    main > header:nth-of-type(2){
+        display: flex;
+    }
+    main > section:nth-of-type(1) > ul {
+        height: auto;
+    }
+    main > section:nth-of-type(1) > div {
+        /* background-color: aqua; */
+        height: 200vh;
+    }
+    main > section:nth-of-type(1) >  div > div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 300px;
+        height: auto;
+        /* border: 1px solid red; */
+    } 
+   
+    main > section:nth-of-type(1) >  div > div > div {
+        width: 100%;
+        padding: 0;
+        align-items: start;
+    }
+    main > section:nth-of-type(1) > div > div > a{
+        width: 100%;
+        order: 2;
+        margin-bottom: 20px;
+    }
+    main > section:nth-of-type(1) > div > div > div:nth-of-type(1){
+        order: 3;
+        /* height: 500px; */
+    }
+    main > section:nth-of-type(1) > div > div > div:nth-of-type(2){
+        order: 1;
+        width: 100%;
+        text-align: end;
+    }
+    main > section:nth-of-type(1) > div > div > div:nth-of-type(1) > img {
+        transform: scale(0.8);
+        width: 100%;
+    }
+    main > section:nth-of-type(2){
+        height: auto;
+    }
+    main > section:nth-of-type(2) > div > figure{
+        width: 100%;
+    }
+    main > section:nth-of-type(2) > div > a {
+        width: 30%;
+    }
+    main > section:nth-of-type(5) > div:nth-of-type(2) > ul{
+        width: 100%;
+        height: auto;
+    }
+    main > section:nth-of-type(4) {
+        padding: 20px;
+    }
+    main > section:nth-of-type(4) > div{
+        width: 100%;
+        order: 2;
+    }
+    main > section:nth-of-type(4) > figure {
+        width: 100%;
+        order: 1;
+    }
+    main > section:nth-of-type(4) > section{
+        order: 3;
+        padding: 30px;
+    }
+    main > section:nth-of-type(4) > div > span{
+        width: 100%;
+    }
+    main > section:nth-of-type(4) > section{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    main > section:nth-of-type(4) > section > div{
+        width: 100%;
+        order: 2;
+        height: 200px;
+    }
+    main > section:nth-of-type(4) > section > figure{
+        width: 100%;
+        height: 400px;
+        order: 1;
+        position: static;
+    }
+    main > section:nth-of-type(4) > section > figure > img{
+        position: static;
+        transform: translate(0);
+    }
+    main > section:nth-of-type(5) > div:nth-of-type(1) > ul {
+        width: 100%;
+    }
+    main > section:nth-of-type(6) {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 3;
+        /* display: none; */
+      }
+      main > section:nth-of-type(1) > ul > li {
+        width: 30%;
+      }
+      main > section:nth-of-type(1) > ul > li > p{
+        padding: 0;
+        font-size: 13px;
+      }
+
+
+
+
+
+
+
+
+
+   
+  }
+
+/* mobile */
+
+@media screen and (min-width: 769px) {
+    main > header:nth-of-type(1){
+        display: none;
+    }
+    main > header:nth-of-type(2){
+        display: flex;
+    }
+    main > section:nth-of-type(2){
+        margin-bottom: 100px;
+
+    }
+    main > section:nth-of-type(1) > div {
+        /* background-color: aqua; */
+        height: 200vh;
+    }
+    main > section:nth-of-type(1) >  div > div {
+        width: 100%;
+    } 
+    main > section:nth-of-type(1) > div > a{
+        width: 50%;
+    }
+    main > section:nth-of-type(1) > div > div:nth-of-type(1){
+        order: 3;
+        height: 500px;
+    }
+    main > section:nth-of-type(1) > div > div:nth-of-type(2){
+        order: 1;
+    }
+    main > section:nth-of-type(1) > div > div > a {
+        order: 2;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    main > section:nth-of-type(1) > div > div:nth-of-type(1) > img {
+        transform: scale(1);
+    }
+    main > section:nth-of-type(2){
+        height: auto;
+    }
+    main > section:nth-of-type(2) > div > figure{
+        width: 100%;
+    }
+    main > section:nth-of-type(2) > div > a {
+        width: 30%;
+    }
+    main > section:nth-of-type(5) > div:nth-of-type(2) > ul{
+        width: 50%;
+        height: auto;
+    }
+    main > section:nth-of-type(4) > div{
+        width: 100%;
+        order: 2;
+    }
+    main > section:nth-of-type(4) > figure {
+        width: 100%;
+        order: 1;
+    }
+    main > section:nth-of-type(4) > section{
+        order: 3;
+    }
+    main > section:nth-of-type(6) {
+        width: 50%;
+        height: 50vh;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 3;
+        display: flex;
+        opacity: 0;
+        /* display: none; */
+      }
+
+      main > section:nth-of-type(1) > ul > li {
+        width: 30%;
+      }
+      main > section:nth-of-type(1) > ul > li > p{
+        padding: 0;
+        font-size: 18px;
+      }
+     
+    
+}
+
+/* tablet */
+
+
+@media screen and (min-width: 992px) {
+    main > header:nth-of-type(1){
+        display: flex;
+    }
+    main > header:nth-of-type(2){
+        display: none;
+    }
+    main > header:nth-of-type(1) > nav:nth-of-type(1){
+        padding: 0 15px;
+    }
+    main > header:nth-of-type(1) > nav:nth-of-type(2){
+        padding: 20px 5px;
+    }
+    main > header:nth-of-type(1) >  nav:nth-of-type(3) > ul{
+        padding-right: 10px;
+    }
+    main > header:nth-of-type(1) > nav > ul:nth-of-type(1){
+        width: 60%;
+    }
+    main > header:nth-of-type(1) > nav > ul:nth-of-type(2){
+        width: 40%;
+    }
+    main > section:nth-of-type(1) > div {
+        /* background-color: aqua; */
+        height: 150vh;
+    }
+    main > section:nth-of-type(1) >  div > div {
+        width: 50%;
+    }
+    main > section:nth-of-type(1) > div > div:nth-of-type(1) > img {
+        transform: scale(0.6);
+    }
+    main > section:nth-of-type(1) > div > div > a{
+        width: 45%;
+        margin-bottom: 0;
+    }
+    main > section:nth-of-type(1) > div > div:nth-of-type(1){
+        order: 1;
+    }
+    main > section:nth-of-type(1) > div > div:nth-of-type(2){
+        order: 2;
+    }
+    main > section:nth-of-type(2) > div > figure{
+        width: 30%;
+    }
+    main > section:nth-of-type(2) > div > a {
+        width: 15%;
+    }
+    main > section:nth-of-type(5) > div:nth-of-type(2) > ul{
+        width: 25%;
+        height: 400px;
+    }
+    main > section:nth-of-type(4) > div{
+        width: 60%;
+        order: 1;
+    }
+    main > section:nth-of-type(4) > figure {
+        width: 40%;
+        order: 2;
+    }
+    main > section:nth-of-type(4) > figure > img {
+        transform: scale(0.6);
+    }
+    main > section:nth-of-type(4) > section{
+        order: 3;
+    }
+    main > section:nth-of-type(4) > div span{
+        width: 80%;
+    }
+    main > section:nth-of-type(6){
+        display: none;
+    }
+    main > section:nth-of-type(1) > ul > li {
+        width: 16%;
+      }
+      main > section:nth-of-type(1) > ul > li > p{
+        padding: 0;
+        font-size: 10px;
+      }
+
+    
+}
+
+/* desktop */
+
+@media screen and (min-width: 1200px) {
+    main > header:nth-of-type(1) > nav:nth-of-type(1){
+        padding: 0 100px;
+    }
+    main > header:nth-of-type(1) > nav:nth-of-type(2){
+        padding: 20px 100px;
+    }
+    main > header:nth-of-type(1) >  nav:nth-of-type(3) > ul{
+        padding-right: 100px;
+    }
+    main > section:nth-of-type(1) > div > a{
+        width: 35%;
+    }
+    main > section:nth-of-type(1) > div > div:nth-of-type(1) > img {
+        transform: scale(1);
+    }
+    main > section:nth-of-type(4) > div{
+        width: 45%;
+
+    }
+    main > section:nth-of-type(4) > figure {
+        width: 55%;
+
+    }
+    main > section:nth-of-type(4) > figure > img {
+        transform: scale(1);
+    }
+    main > section:nth-of-type(1) > ul > li > p{
+        padding: 0;
+        font-size: 20px;
+      }
+    
+    
+}
+
+/* big */
